@@ -44,6 +44,8 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 			<?php echo $this->Flash->render(); ?>
 
+			<h2>Hello World!</h2>
+
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		<div id="footer">
